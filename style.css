@@ -1,0 +1,167 @@
+li{
+    display: inline;
+    font-size: 10px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+ margin: 1em;
+
+}
+
+.float {
+    float: right;
+    padding-left: 0.2em;
+    position: relative;
+    bottom: 7px;
+}
+body{
+ font-family:  'Epilogue', sans-serif;;
+font-weight: 20px;
+margin: 1em;
+margin-left: 1%;
+background: hsl(0, 0%, 98%);}
+.logo{
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.logo{
+    width: 45px;
+    position: relative;
+    left: 20px;
+    top: 6px;
+}
+.flex{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin: 0;
+    width: 80%;
+    margin: 1em;
+padding: 2em;
+padding-left: 15%;
+}
+.pic{
+    width: 65%;
+    height: 60%;
+}
+p{
+    font-size: 11px;
+    color: hsl(0, 0%, 41%);
+}
+.remote{
+    padding-right: 5em;
+    padding-bottom: 50px;
+}
+h1{
+    font-size: 35px;
+    font-weight: 500, 700;
+}
+.button{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    border-radius: 10px;
+    font-size: 11px;
+    position: relative;
+    bottom: -15px;
+    width: 100px;
+    height: 25px;
+}
+.images{
+  display: flex;
+  width: 20px;
+  position: relative;
+  top: 90px;
+}
+.imgs{
+    width: 60px;
+    margin-right: 10px;
+}
+.buttons{
+    color:  hsl(0, 0%, 41%);
+    border-radius: 7px;
+  background-color: hsl(0, 0%, 98%);
+    border-width: 1px;
+    border-color:  hsl(0, 0%, 41%);;
+font-size: 11px;
+position: relative;
+bottom: 2px;
+}
+#float{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+.dropmenu{
+display: none;
+
+} 
+.li{
+    display:flex;
+    flex-direction: column;
+}
+.dropmenus{
+display: none;
+
+}
+li.nava {
+    /* position: fixed; */
+    position: relative;
+    left: -20px;
+    align-items: center;
+    bottom: 20px;
+}
+.companys{
+    height: 60px;
+
+}
+li .companys{
+    position: relative;
+    bottom: 10px;
+}
+.drop_down{
+    position: relative;
+    right: 10px;
+}
+
+li{
+    transition: all 0.3s ease-in-out;
+    
+}
+
+li{
+    transition: all 0.3s ease-in-out;
+}
+.nava{
+    transition: 0.9s;
+}
+.display{
+    position: absolute;
+    display: block;
+    left: 90px;
+    background-color: white;
+width: 110px;
+border-radius: 10px;
+box-shadow: 5px 6px 17px;
+height: 94px;
+
+}
+
+.display2{
+    position: absolute;
+    display: block;
+    left: 170px;
+    width: 114px;
+    background-color: white;
+width: 110px;
+border-radius: 10px;
+box-shadow: 5px 6px 17px;
+}
+
+.display3{
+    display: none;
+}
+
